@@ -70,9 +70,8 @@ python main.py
 
 Carga de datos desde dataset.csv, que debe tener al menos dos columnas:
 
-    Random: identificador de la planta
-
-    PHR: altura registrada (Promedio de la altura relativa)
+-- Random: identificador de la planta
+-- PHR: altura registrada (Promedio de la altura relativa)
 
 Se filtran las alturas consecutivas que cambian poco, usando un umbral de similitud (umbral_similitud).
 
@@ -83,17 +82,11 @@ Se calcula la derivada de PHR con numpy.gradient.
 Se identifica el punto de mayor crecimiento, en base al valor máximo de la derivada en el dataset original (sin filtrar).
 
 Se grafica:
-
-    Altura original suavizada (PHR)
-
-    Derivada de crecimiento
-
-    Punto de máximo crecimiento resaltado en rojo
+-- Altura original suavizada (PHR)
+-- Derivada de crecimiento
+-- Punto de máximo crecimiento resaltado en rojo
 
 Se entrega una interpretación textual automática indicando:
-
-    Día real donde ocurrió el máximo crecimiento
-
-    Altura en ese momento
-
-    Intervalo relativo de etapas gráficas donde ocurrió el cambio
+-- Día real donde ocurrió el máximo crecimiento
+-- Altura en ese momento
+-- Intervalo relativo de etapas gráficas donde ocurrió el cambio
