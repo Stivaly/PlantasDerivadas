@@ -70,8 +70,8 @@ python main.py
 
 Carga de datos desde dataset.csv, que debe tener al menos dos columnas:
 
--- Random: identificador de la planta
--- PHR: altura registrada (Promedio de la altura relativa)
+- Random: identificador de la planta
+- PHR: altura registrada (Promedio de la altura relativa)
 
 Se filtran las alturas consecutivas que cambian poco, usando un umbral de similitud (umbral_similitud).
 
