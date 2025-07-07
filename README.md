@@ -42,30 +42,30 @@ Este proyecto permite visualizar el crecimiento de plantas a través de una inte
 ```bash
 git clone https://github.com/tunombre/crecimiento-plantas.git
 cd crecimiento-plantas
-
+```
 ### 2. Crear entorno virtual (opcional pero recomendado)
 ```bash
 python -m venv venv
-
+```
 ### 3. Activar entorno virtual
 - En Windows:
 ```bash
 venv\Scripts\activate
-
+```
 - En Linux / macOS:
 ```bash
 source venv/bin/activate
-
+```
 ### 4. Activar entorno virtual
 ```bash
 pip install -r requirements.txt
-
+```
 ## 🚀 Ejecución de la aplicación
 
 Asegúrate de tener dataset.csv en la misma carpeta que main.py. Luego:
 ```bash
 python main.py
-
+```
 ## 🧠 Descripción técnica del funcionamiento
 
 Carga de datos desde dataset.csv, que debe tener al menos dos columnas:
