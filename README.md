@@ -18,11 +18,11 @@ Este proyecto permite visualizar el crecimiento de plantas a través de una inte
 
 ## 📁 Estructura del proyecto
 
-├── main.py # Lógica de la interfaz gráfica
-├── modelo.py # Procesamiento de datos, derivadas y análisis
-├── dataset.csv # Archivo con los datos de las plantas (entrada)
-├── README.md # Este documento
-└── requirements.txt # Archivo con dependencias (opcional)
+├── main.py # Lógica de la interfaz gráfica  
+├── modelo.py # Procesamiento de datos, derivadas y análisis  
+├── dataset.csv # Archivo con los datos de las plantas (entrada)  
+├── README.md # Este documento  
+└── requirements.txt # Archivo con dependencias (opcional)  
 
 
 ---
