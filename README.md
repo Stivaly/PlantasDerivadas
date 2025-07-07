@@ -82,11 +82,11 @@ Se calcula la derivada de PHR con numpy.gradient.
 Se identifica el punto de mayor crecimiento, en base al valor máximo de la derivada en el dataset original (sin filtrar).
 
 Se grafica:
--- Altura original suavizada (PHR)
--- Derivada de crecimiento
--- Punto de máximo crecimiento resaltado en rojo
+- Altura original suavizada (PHR)
+- Derivada de crecimiento
+- Punto de máximo crecimiento resaltado en rojo
 
 Se entrega una interpretación textual automática indicando:
--- Día real donde ocurrió el máximo crecimiento
--- Altura en ese momento
--- Intervalo relativo de etapas gráficas donde ocurrió el cambio
+- Día real donde ocurrió el máximo crecimiento
+- Altura en ese momento
+- Intervalo relativo de etapas gráficas donde ocurrió el cambio
